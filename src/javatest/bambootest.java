@@ -1,10 +1,22 @@
 package javatest;
 
+import static org.testng.AssertJUnit.assertEquals;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
 public class bambootest {
 	
-	public static void main(String args[])
+//	public static void main(String args[])
+//	{
+//		System.out.print("testttttttttttttttt");
+//	}
+	
+	@Test
+	public void test1()
 	{
-		System.out.print("testttttttttttttttt");
+		Assert.assertEquals("abc", "abc");
+
 	}
 	
 //	{
