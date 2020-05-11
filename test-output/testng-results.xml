@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14220" started-at="2020-04-01T18:50:29 PKT" finished-at="2020-04-01T18:50:43 PKT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14220" started-at="2020-04-01T18:50:29 PKT" finished-at="2020-04-01T18:50:43 PKT">
+      <class name="javatest.bambootest">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:javatest.bambootest@71d15f18]" name="startTest" is-config="true" duration-ms="206" started-at="2020-04-01T18:50:29 PKT" finished-at="2020-04-01T18:50:29 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="extentReportsDemo()[pri:0, instance:javatest.bambootest@71d15f18]" name="extentReportsDemo" duration-ms="9436" started-at="2020-04-01T18:50:29 PKT" finished-at="2020-04-01T18:50:39 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportsDemo -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:javatest.bambootest@71d15f18]" name="endTest" is-config="true" duration-ms="4536" started-at="2020-04-01T18:50:39 PKT" finished-at="2020-04-01T18:50:43 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- javatest.bambootest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
