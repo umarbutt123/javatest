@@ -1,22 +1,21 @@
 package javatest;
 
-import org.junit.BeforeClass;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+//import org.openqa.selenium.chrome.ChromeDriver;
+//import org.testng.annotations.AfterClass;
+//import org.testng.annotations.AfterTest;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
-import com.relevantcodes.extentreports.ExtentReports;
-import com.relevantcodes.extentreports.ExtentTest;
-import com.relevantcodes.extentreports.LogStatus;
+//import com.relevantcodes.extentreports.ExtentReports;
+//import com.relevantcodes.extentreports.ExtentTest;
+//import com.relevantcodes.extentreports.LogStatus;
 
 public class bambootest {
 	
-	static ExtentTest test;
-	public static ExtentReports report;
-	public static WebDriver driver;
+//	static ExtentTest test;
+//	public static ExtentReports report;
+//	public static WebDriver driver;
 
 	
 //	@org.testng.annotations.BeforeClass
