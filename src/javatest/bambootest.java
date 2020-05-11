@@ -19,58 +19,58 @@ public class bambootest {
 	public static WebDriver driver;
 
 	
-	@org.testng.annotations.BeforeClass
-	public static void startTest()
+//	@org.testng.annotations.BeforeClass
+//	public static void startTest()
+//	{
+//	String text = "test";
+//	report = new ExtentReports(System.getProperty("reports")+"\\ExtentReportResults.html");
+//	test = report.startTest("ExtentDemo");
+//	}
+	
+//	@Test
+//	public void extentReportsDemo()
+//	{
+//	System.setProperty("webdriver.chrome.driver", "D:\\chromedriver.exe");
+//	driver = new ChromeDriver();
+//	driver.get("https://www.google.com");
+//	if(driver.getTitle().equals("Google"))
+//	{
+//		String a = "<span style='font-weight:bold;color:red'>";
+//		System.out.print(a);
+//		test.log(LogStatus.INFO, "<span style='font-weight:bold;color:red'>"+a);
+//
+////		test.log(LogStatus.PASS,"step 1", "<span class='label info'>info text</span>");
+////		test.log(LogStatus.PASS,"step 1", "<span class='label warn'>warning</span>");
+////		test.log(LogStatus.INFO, "HTML", "Usage: <span style='font-weight:bold;color:red'>text bold and color red</span>");
+//
+////	test.log(LogStatus.PASS,"step 1", "<span class='label success'>Navigated to the specified URL</span>");
+////	test.log(LogStatus.PASS,"<b>successful</b>");
+//	}
+//	else
+//	{
+//	test.log(LogStatus.FAIL, "<span class='label failure'> Test Failed due to testing purpose</span>");
+//	}
+//	}
+
+	@Test
+	public void test1()
 	{
-	String text = "test";
-	report = new ExtentReports(System.getProperty("reports")+"\\ExtentReportResults.html");
-	test = report.startTest("ExtentDemo");
+		Assert.assertEquals("abc", "abc");
+//		test.log(LogStatus.PASS, "assertion passed");
+
 	}
 	
 	@Test
-	public void extentReportsDemo()
+	public void test2()
 	{
-	System.setProperty("webdriver.chrome.driver", "D:\\chromedriver.exe");
-	driver = new ChromeDriver();
-	driver.get("https://www.google.com");
-	if(driver.getTitle().equals("Google"))
-	{
-		String a = "<span style='font-weight:bold;color:red'>";
-		System.out.print(a);
-		test.log(LogStatus.INFO, "<span style='font-weight:bold;color:red'>"+a);
-
-//		test.log(LogStatus.PASS,"step 1", "<span class='label info'>info text</span>");
-//		test.log(LogStatus.PASS,"step 1", "<span class='label warn'>warning</span>");
-//		test.log(LogStatus.INFO, "HTML", "Usage: <span style='font-weight:bold;color:red'>text bold and color red</span>");
-
-//	test.log(LogStatus.PASS,"step 1", "<span class='label success'>Navigated to the specified URL</span>");
-//	test.log(LogStatus.PASS,"<b>successful</b>");
+		Assert.assertEquals("abc", "qwr");
 	}
-	else
-	{
-	test.log(LogStatus.FAIL, "<span class='label failure'> Test Failed due to testing purpose</span>");
-	}
-	}
-
-//	@Test
-//	public void test1()
-//	{
-//		Assert.assertEquals("abc", "abc");
-//		test.log(LogStatus.PASS, "assertion passed");
-//
-//	}
 	
-//	@Test
-//	public void test2()
+//	@AfterClass
+//	public static void endTest()
 //	{
-//		Assert.assertEquals("abc", "qwr");
+//	report.endTest(test);
+//	report.flush();
+//	driver.close();
 //	}
-	
-	@AfterClass
-	public static void endTest()
-	{
-	report.endTest(test);
-	report.flush();
-	driver.close();
-	}
 }

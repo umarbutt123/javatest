@@ -5,9 +5,7 @@
     <classes>
       <class name="javatest.bambootest">
         <methods>
-          <include name="endTest"/>
-          <include name="startTest"/>
-          <include name="extentReportsDemo"/>
+          <include name="test2"/>
         </methods>
       </class> <!-- javatest.bambootest -->
     </classes>
