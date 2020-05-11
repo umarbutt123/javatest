@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="346" started-at="2020-05-11T16:19:55 PKT" finished-at="2020-05-11T16:19:56 PKT">
+  <suite name="All Test Suite" duration-ms="312" started-at="2020-05-11T16:32:29 PKT" finished-at="2020-05-11T16:32:29 PKT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="346" started-at="2020-05-11T16:19:55 PKT" finished-at="2020-05-11T16:19:56 PKT">
+    <test name="API Tests" duration-ms="312" started-at="2020-05-11T16:32:29 PKT" finished-at="2020-05-11T16:32:29 PKT">
       <class name="javatest.bambootest">
-        <test-method status="PASS" signature="test1()[pri:0, instance:javatest.bambootest@223191a6]" name="test1" duration-ms="123" started-at="2020-05-11T16:19:55 PKT" finished-at="2020-05-11T16:19:55 PKT">
+        <test-method status="PASS" signature="test1()[pri:0, instance:javatest.bambootest@223191a6]" name="test1" duration-ms="106" started-at="2020-05-11T16:32:29 PKT" finished-at="2020-05-11T16:32:29 PKT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="FAIL" signature="test2()[pri:0, instance:javatest.bambootest@223191a6]" name="test2" duration-ms="13" started-at="2020-05-11T16:19:56 PKT" finished-at="2020-05-11T16:19:56 PKT">
+        <test-method status="FAIL" signature="test2()[pri:0, instance:javatest.bambootest@223191a6]" name="test2" duration-ms="5" started-at="2020-05-11T16:32:29 PKT" finished-at="2020-05-11T16:32:29 PKT">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [qwr] but found [abc]]]>
@@ -59,6 +59,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- test2 -->
       </class> <!-- javatest.bambootest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- API Tests -->
+  </suite> <!-- All Test Suite -->
 </testng-results>
