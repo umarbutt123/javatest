@@ -6,7 +6,7 @@
     <groups>
     </groups>
     <test name="API Tests" duration-ms="312" started-at="2020-05-11T16:32:29 PKT" finished-at="2020-05-11T16:32:29 PKT">
-      <class name="javatest.bambootest">
+      <class name="com.qa.bambootest">
         <test-method status="PASS" signature="test1()[pri:0, instance:javatest.bambootest@223191a6]" name="test1" duration-ms="106" started-at="2020-05-11T16:32:29 PKT" finished-at="2020-05-11T16:32:29 PKT">
           <reporter-output>
           </reporter-output>
@@ -23,7 +23,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:136)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:575)
 at org.testng.Assert.assertEquals(Assert.java:585)
-at javatest.bambootest.test2(bambootest.java:66)
+at com.qa.bambootest.test2(bambootest.java:66)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -58,7 +58,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-      </class> <!-- javatest.bambootest -->
+      </class> <!-- bambootest -->
     </test> <!-- API Tests -->
   </suite> <!-- All Test Suite -->
 </testng-results>

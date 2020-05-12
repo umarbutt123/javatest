@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [All Test Suite]">
   <test thread-count="5" verbose="2" name="API Tests(failed)">
     <classes>
-      <class name="javatest.bambootest">
+      <class name="com.qa.bambootest">
         <methods>
           <include name="test2"/>
         </methods>
-      </class> <!-- javatest.bambootest -->
+      </class> <!-- bambootest -->
     </classes>
   </test> <!-- API Tests(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->

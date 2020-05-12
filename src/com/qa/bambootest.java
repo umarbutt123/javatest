@@ -1,4 +1,4 @@
-package javatest;
+package com.qa;
 
 import org.openqa.selenium.WebDriver;
 //import org.openqa.selenium.chrome.ChromeDriver;
@@ -12,6 +12,7 @@ import org.testng.annotations.Test;
 //import com.relevantcodes.extentreports.LogStatus;
 
 public class bambootest {
+	private final String TEST_SUITE_PM = "PM";
 	
 //	static ExtentTest test;
 //	public static ExtentReports report;
@@ -51,18 +52,20 @@ public class bambootest {
 //	}
 //	}
 
-	@Test
+	@Test(groups = {TEST_SUITE_PM})
 	public void test1()
 	{
-		Assert.assertEquals("abc", "abc");
+		Assert.assertEquals("abc", "abc"
+		);
 //		test.log(LogStatus.PASS, "assertion passed");
 
 	}
 	
-	@Test
+	@Test(groups = {TEST_SUITE_PM})
 	public void test2()
 	{
 		Assert.assertEquals("abc", "qwr");
+
 	}
 	
 //	@AfterClass
