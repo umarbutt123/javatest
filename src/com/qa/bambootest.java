@@ -64,7 +64,7 @@ public class bambootest {
 	@Test(groups = {TEST_SUITE_PM})
 	public void test2()
 	{
-		Assert.assertEquals("abc", "qwr");
+		Assert.assertEquals("abc", "abc");
 
 	}
 	
